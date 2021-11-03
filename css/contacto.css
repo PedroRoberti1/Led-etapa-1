@@ -1,0 +1,48 @@
+section {
+    background-color: white;
+    margin:0;
+}
+.contenedor{
+    box-shadow: 10px 10px 5px grey;
+}
+
+#contacto {
+    width: 450px; /*ancho*/
+    margin: auto; /*centrado*/
+    background-color: lightblue;
+    padding: 10px; /*relleno vertical y horizontal*/
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.h1-responsive {
+    color: blue;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+input, textarea, select {
+    width: 70%;
+    margin-bottom: 20px;
+    padding:7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #f0f8ff;
+    box-shadow: 5px 5px 3px grey;
+}
+
+textarea {
+    min-height: 80px; 
+    max-width: 200px;
+    max-width: 70%;
+}
+
+.btn{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
